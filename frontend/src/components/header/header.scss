@@ -1,0 +1,21 @@
+.headerBackground {
+  background-color: rgb(226 232 240);
+}
+
+.logo-initial {
+  color: gray;
+}
+
+.logo-end {
+  color: black;
+}
+
+.searchbar{
+    border: none;
+}
+
+.searchbar:focus {
+    box-shadow: none;
+    outline: none;
+border: 0;
+}
