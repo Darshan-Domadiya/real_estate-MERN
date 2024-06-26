@@ -1,0 +1,12 @@
+.custom-input:focus {
+  border: 1px solid bisque;
+  background: none;
+  box-shadow: none;
+  background-color: white;
+}
+
+.signup-text {
+  cursor: pointer;
+  color: grey;
+  transition: 0.2s;
+}

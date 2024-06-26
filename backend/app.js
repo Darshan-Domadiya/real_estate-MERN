@@ -8,4 +8,10 @@ app.use(cors({ origin: process.env.CORS_ORIGIN, credentials: true }));
 app.use(express.json());
 app.use(express.static("public"));
 
+// import routers.
+import userRouter from "./routes/user.routes.js";
+
+// routing.
+app.use("/api/user", userRouter);
+
 export default app;

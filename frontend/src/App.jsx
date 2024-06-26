@@ -3,9 +3,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Profile from "./pages/Profile";
-import About from "./pages/About";
-import SignIn from "./pages/SignIn";
 import Layout from "./pages/Layout";
+import About from "./pages/about/About";
+import SignIn from "./pages/signin/SignIn";
+import Signup from "./pages/signup/Signup";
 
 const App = () => {
   return (
@@ -17,7 +18,8 @@ const App = () => {
             <Route path="/about" element=<About /> />
             <Route path="/profile" element=<Profile /> />
             <Route path="/signin" element=<SignIn /> />
-          </Route>  
+            <Route path="/signup" element=<Signup /> />
+          </Route>
         </Routes>
       </BrowserRouter>
     </>
